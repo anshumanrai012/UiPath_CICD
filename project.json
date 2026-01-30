@@ -1,6 +1,6 @@
 {
   "name": "AzureDevOpsDemo",
-  "description": "Blank Processs",
+  "description": "Blank Procsesss",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.12.3]",
@@ -57,3 +57,4 @@
   "targetFramework": "Legacy"
 
 }
+
