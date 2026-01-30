@@ -17,7 +17,7 @@ jobs:
     steps:            
       # Checkout code from this repo
       - name: Checkout Code
-        uses: actions/checkout@v2      
+        uses: actions/checkout@v6      
       # Facilitate the UiPath CLI in the github artifacts
       - name: Get UiPath CLI
         run: |
@@ -47,7 +47,7 @@ jobs:
                        }    
       # Persist build artifacts
       - name: Upload a Build Artifact
-        uses: actions/upload-artifact@v2.2.0
+        uses: actions/upload-artifact@v4
         with:	 
              name: ProjectFiles
              path: ${{ github.workspace }}/**
