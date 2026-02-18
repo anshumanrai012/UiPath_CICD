@@ -1,1 +1,1 @@
-This repository ie enabled with CICD. Once a PR is merged, it publishes the package to Github. UiPath environment vatiavles need to setup in Setting>Security>secrets and variables>Action>Repository secrets
+This repository ie enabled with CICD. Once a PR is merged, it publishes the package to Github. UiPath environment variables need to setup in Setting>Security>secrets and variables>Action>Repository secrets
